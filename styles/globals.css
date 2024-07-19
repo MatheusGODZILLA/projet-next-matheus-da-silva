@@ -50,6 +50,7 @@ header img {
   align-items: center;
   padding: 30px;
   margin-bottom: 15px;
+  height: 100vh;
 }
 
 .iniciante h1 {
@@ -67,7 +68,7 @@ header img {
 .iniciante img {
   margin: 20px;
   border: #000 solid 5px;
-  max-width: 300px;
+  max-width: 25%;
   height: auto; 
 }
 
@@ -78,6 +79,10 @@ header img {
   justify-content: center;
   padding: 30px;
   background-color: var(--secondary-color);
+}
+
+.conrad{
+  height: 100vh;
 }
 
 .sobre img {
