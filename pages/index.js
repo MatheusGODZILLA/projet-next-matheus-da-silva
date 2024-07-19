@@ -9,9 +9,12 @@ export default function Home() {
   useEffect(() => {
     fetch('/api/page-metadata?page=home')
       .then((res) => res.json())
-      .then((data) => setMetadata(data));
+      .then((data) => {
+        console.log(data);  
+        setMetadata(data);
+      });
   }, []);
-
+  
   return (
     <>
       <Header />
