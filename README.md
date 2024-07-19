@@ -94,7 +94,3 @@ Você pode começar a editar a página modificando `pages/index.js`. A página s
 As [rotas da API](https://nextjs.org/docs/api-routes/introduction) podem ser acessadas em [http://localhost:3000/api/page-metadata](http://localhost:3000/api/page-metadata), [http://localhost:3000/api/site-config](http://localhost:3000/api/site-config), e [http://localhost:3000/api/contact-info](http://localhost:3000/api/contact-info). Esses endpoints podem ser editados em `pages/api/page-metadata.js`, `pages/api/site-config.js` e `pages/api/contact-info.js`.
 
 O projeto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para otimizar e carregar automaticamente a fonte Inter, uma fonte personalizada do Google.
-
----
-
-Esse README fornece uma visão geral completa do projeto, explica como navegar pelas páginas e usar as APIs, e inclui instruções para iniciar o servidor de desenvolvimento. Se precisar de mais alguma coisa ou ajustes, é só avisar!
