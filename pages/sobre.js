@@ -15,10 +15,12 @@ export default function Sobre() {
       });
   }, []);
   return (
-    <>
+    <div className="page-container">
       <Header />
-      <SobreSection />
+      <main className="main-content">
+        <SobreSection />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }

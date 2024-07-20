@@ -4,10 +4,12 @@ import ConradSection from '../components/ConradSection';
 
 export default function Conrad() {
   return (
-    <>
+    <div className="page-container">
       <Header />
-      <ConradSection />
+      <main className="main-content">
+        <ConradSection />
+      </main>      
       <Footer />
-    </>
+    </div>
   );
 }

@@ -5,8 +5,19 @@
   font-family: 'Roboto', sans-serif;
 }
 
-body {
+html, body {
+  height: 100%;
   background-color: #D99E89;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
 }
 
 header {
@@ -50,7 +61,6 @@ header img {
   align-items: center;
   padding: 30px;
   margin-bottom: 15px;
-  height: 100vh;
 }
 
 .iniciante h1 {
@@ -81,10 +91,6 @@ header img {
   background-color: var(--secondary-color);
 }
 
-.conrad{
-  height: 100vh;
-}
-
 .sobre img {
   width: 50%;
   border: #000 solid 5px;
@@ -102,6 +108,7 @@ header img {
   color: var(--principal-color);
   margin-top: 10px;
 }
+
 .conrad img {
   width: 60%;
   height: auto;

@@ -16,10 +16,12 @@ export default function Home() {
   }, []);
   
   return (
-    <>
+    <div className="page-container">
       <Header />
-      <HomeSection />
+      <main className="main-content">
+        <HomeSection />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
